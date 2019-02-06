@@ -1,0 +1,100 @@
+/* this is where all of your CSS styles go */
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+.grid_container {
+	width: 200px;
+	height: 100px;
+	position: relative;
+	left: 50%;
+	top: 48%;
+	margin-top: -50px;
+	margin-left: -100px;
+}
+
+.mono {
+	font-family: 'Open Sans COndensed', sans-serif;
+	font-size: 20pt;
+	float: left;
+	margin-left: 15px;
+}
+
+@keyframes a_move {
+	0% { opacity: 0; color: black;}
+	50% { opacity: 0; color: red; }
+	100% { left: 250px; opacity: 1; color: black; }
+
+}
+
+.a {
+	position: relative;
+	animation: a_move 2s;
+}
+
+@keyframes b_fade {
+	0% {opacity: 0; color: black;}
+	50% { opacity: 0; color: red; }
+	100% {opacity: 1; color: black;}
+}
+
+.b {
+	position: relative;
+	animation: b_fade 2s;
+}
+
+@keyframes c_fade {
+	0% {opacity: 0; color: black;}
+	50% { opacity: 0; color: red; }
+	100% {opacity: 1; color: black;}
+}
+
+.c {
+	position: relative;
+	animation: b_fade 2s;
+}
+
+@keyframes d_fade {
+	0% {opacity: 0; color: black;}
+	50% { opacity: 0; color: red; }
+	100% {opacity: 1; color: black;}
+}
+
+.d {
+	position: relative;
+	animation: b_fade 2s;
+}
+
+@keyframes e_move {
+	0% {opacity: 0; color: black;}
+	50% { opacity: 0; color: red; }
+	100% { left: 100px; opacity: 1; color: black;}
+}
+
+.e {
+	position: relative;
+	animation: e_move 2s;
+}
+
+@keyframes f_fade {
+	0% {opacity: 0; color: black;}
+	50% { opacity: 0; color: red; }
+	100% {opacity: 1; color: black;}
+}
+
+.f {
+	position: relative;
+	animation: b_fade 2s;
+}
+@keyframes g_move {
+	0% {opacity: 0; color: black;}
+	50% { opacity: 0;color: red; }
+	100% { left: 100px; opacity: 1; color: black;}
+}
+
+.g {
+	position: relative;
+	animation: g_move 2s;
+}
